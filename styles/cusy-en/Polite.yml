@@ -1,0 +1,7 @@
+extends: existence
+message: 'Do not use "%s" in the technical documentation.'
+level: warning
+ignorecase: true
+tokens:
+  - please
+  - thank you

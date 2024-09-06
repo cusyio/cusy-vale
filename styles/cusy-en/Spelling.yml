@@ -1,0 +1,7 @@
+extends: spelling
+message: "Spelling: '%s'?"
+dicpath: styles/dictionaries/en_GB_oxendict
+dictionaries:
+  - en_GB_oxendict
+level: warning
+ignore: styles/cusy-en/ignore.txt

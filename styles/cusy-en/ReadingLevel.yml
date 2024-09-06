@@ -1,0 +1,7 @@
+extends: readability
+message: "The language level (%s) is high. Uses shorter sentences and words."
+level: suggestion
+grade: 8
+metrics:
+  # - Flesch-Kincaid
+  - SMOG
