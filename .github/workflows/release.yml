@@ -1,0 +1,24 @@
+name: Release
+
+on: push
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - run: |
+        cd styles/
+        zip -r "cusy-vale.zip" "." && mv "cusy-vale.zip" ../
+
+    - name: Upload style to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_name: cusyio/cusy-vale
+        repo_token: ${{ secrets.YOUR_PERSONAL_ACCESS_TOKEN }}
+        tag: ${{ github.ref }}
+        file: cusy-vale.zip
