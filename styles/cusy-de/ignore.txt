@@ -4,6 +4,7 @@ Appmode
 Arcpy
 Atlassian
 attrs
+auditwheel
 Bitbucket
 Bullard
 California
@@ -13,6 +14,7 @@ Codecov
 cookiecutter
 Codacy
 concretisation
+CPython
 crobarcro
 cusy
 cyclomatic
@@ -20,6 +22,7 @@ Cython
 Dask
 DataCite
 Dataverse
+delocate
 Distrowatch
 DOI
 docstring
@@ -75,6 +78,7 @@ Protobuf
 psychonomic
 Psycopg
 Pydantic
+Pygments
 Pysa
 Pytype
 Redis
@@ -83,9 +87,12 @@ Roboflow
 Rossum
 sharding
 slideshow
+Schiele
 Spack
+SQLAlchemy
 Starlette
 Stata
+Veit
 Vue
 Vuetify
 Wireshark
